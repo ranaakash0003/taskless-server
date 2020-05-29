@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://akash:root@cluster0-546bh.mongodb.net/test",
+  "jwtPrivateKey": "mytoken"
+}

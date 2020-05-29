@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const config = require("config");
-const db = "mongodb+srv://akash:root@cluster0-546bh.mongodb.net/test";
+const db = config.get("mongoURI");
 
 const connectDB = async () => {
   try {
